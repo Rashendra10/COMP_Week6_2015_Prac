@@ -1,0 +1,26 @@
+/**
+ * No-Arg Constructor - create the new employee object with some default
+ * values. Note: these values are for the purpose of the example only and are
+ * not particularly sensible values to choose.
+ */
+public Employee() {
+  staffID = -1;
+  firstName = "not known";
+  surname = "not known";
+  payRate = 16.75f;   // the minimum payrate for an employee at the company
+}
+
+/**
+ * Constructor - create the new employee object using the values from the parameters as listed
+ *
+ * @param ID - The new employees staff ID.
+ * @param fName - The new employees first name
+ * @param sName - The new employees surname
+ * @param rate - The new employees hourly rate of pay
+ */
+public Employee(int ID, String fName, String sName, float rate) {
+  staffID = ID;
+  firstName = fName;
+  surname = sName;
+  payRate = rate;
+}
